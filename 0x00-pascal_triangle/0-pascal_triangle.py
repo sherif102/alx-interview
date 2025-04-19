@@ -22,4 +22,4 @@ def pascal_triangle(n, return_list=[]):
             for base in range(n + 1)
             ]
         return_list.append(row)
-    return return_list
+    return return_list[:-1]
