@@ -1,4 +1,5 @@
 #!/usr/bin/python3
+"""checks if a list of boxes can all be opened by finding keys to them"""
 
 # def canUnlockAll(boxes):
 #     boxes_checked = {tuple(boxes[0])}
@@ -22,7 +23,9 @@
 #         keys.clear()
 #     return len(boxes) == len(boxes_checked)
 
+
 def canUnlockAll(boxes):
+    """function that checks if a list of boxes can all be opened"""
     visited = set()
     keys = [0]
 
