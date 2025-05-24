@@ -4,9 +4,7 @@
 
 def minOperations(n):
     """calculates the minimum operations"""
-    if n == 1:
-        return 1
-    elif n < 1:
+    if n <= 1:
         return 0
 
     op_counter = 2
